@@ -49,11 +49,22 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-gossonot
-things
-common
-namespace
+platform
 bx-bases
+currents
+full
+examples
+lcnt
+common
+overview
+bootstrap
+marme
+namespace
+coreDist
+things
+core
+mmwsIcm
+gossonot
 "
 # }}} DBLOCK-nodesList
 ####+END:
@@ -83,7 +94,7 @@ ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgUnInstall sys
 $( examplesSeperatorChapter "PyPi AuxNode ftpWalks" )
 ftoProc.sh -v -n showRun -i treeRecurse runFunc pypiProc.sh -i distClean
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i distClean
-ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit /bystar/dist/venv/dev-py2-bisos-3
+ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit /bisos/venv/dev-py2-bisos-3
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit sys
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd icmPlayer.sh -i clean ftoProc.sh pypiProc.sh
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd icmPlayer.sh -i pkgedPrep ftoProc.sh pypiProc.sh
