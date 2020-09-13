@@ -17,7 +17,11 @@ SEED="
 "
 FILE="
 <<<<<<< HEAD
+<<<<<<< HEAD
 *  /This File/ :: /bisos/git/auth/bxRepos/bisos-pip/base/ftoProc.sh 
+=======
+*  /This File/ :: /bisos/git/auth/bxRepos/bisos-pip/ftoProc.sh 
+>>>>>>> c481f6ea3ddff1f10435271d88ceaac1f18e6304
 =======
 *  /This File/ :: /bisos/git/auth/bxRepos/bisos-pip/ftoProc.sh 
 >>>>>>> c481f6ea3ddff1f10435271d88ceaac1f18e6304
@@ -76,6 +80,9 @@ gossonot
 bootstrap
 full
 common
+<<<<<<< HEAD
+>>>>>>> c481f6ea3ddff1f10435271d88ceaac1f18e6304
+=======
 >>>>>>> c481f6ea3ddff1f10435271d88ceaac1f18e6304
 "
 # }}} DBLOCK-nodesList
