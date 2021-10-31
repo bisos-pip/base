@@ -140,7 +140,7 @@ ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgUnInstall sys
 $( examplesSeperatorChapter "PyPi AuxNode ftpWalks" )
 ftoProc.sh -v -n showRun -i treeRecurse runFunc pypiProc.sh -i distClean
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i distClean
-ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit /bisos/venv/dev-py2-bisos-3
+ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit /bisos/venv/py3/dev-bisos3
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd pypiProc.sh -i pkgInstall edit sys
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd icmPlayer.sh -i clean ftoProc.sh pypiProc.sh
 ftoProc.sh -v -n showRun -i ftoWalkRunCmnd icmPlayer.sh -i pkgedPrep ftoProc.sh pypiProc.sh
