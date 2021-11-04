@@ -57,25 +57,30 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-overview
-coreDist
 examples
-bashStandaloneIcmSeed
-core
-bx-bases
-things
-gossonot
-platform
-namespace
-currents
-common
-bxoGitlab
 mmwsIcm
-lcnt
 bootstrap
-provision
-marme
 full
+bashStandaloneIcmSeed
+pals
+marme
+platform
+bx-bases
+provision
+basics
+bpo
+bxoGitlab
+common
+core
+things
+overview
+gossonot
+coreDist
+cntnr
+namespace
+icm
+currents
+lcnt
 "
 # }}} DBLOCK-nodesList
 ####+END:
