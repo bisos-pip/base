@@ -57,6 +57,7 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+bpf
 examples
 mmwsIcm
 bootstrap
