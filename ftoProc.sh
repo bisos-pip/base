@@ -35,7 +35,6 @@ b
 banna
 bashStandaloneIcmSeed
 basics
-binsprep
 bootstrap
 bpo
 bx-bases
